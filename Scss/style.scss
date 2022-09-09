@@ -1,0 +1,60 @@
+@import "_nullstyle.scss";
+@import "_header.scss";
+@import "_nullstyle.scss";
+@import "_product.scss";
+
+body {
+  height: 100%;
+  font-family: 'Proxima Nova';
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 100%;
+}
+
+.page {
+  flex: 1 1 auto;
+}
+
+.container {
+  max-width: 1230px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  background: url('../fonts/fonts/proximanova_bold.eot');
+}
+
+
+
+
+
+
+
+
+
+// FONTS=============================
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/fonts/proximanova_bold.eot');
+  src: local('☺'), url('../fonts/fonts/proximanova_bold.woff') format('woff'),
+    url('../fonts/fonts/proximanova_bold.ttf') format('truetype'),
+    url('../fonts/fonts/proximanova_bold.svg') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/fonts/proximanova_regular.eot');
+  src: local('☺'), url('../fonts/fonts/proximanova_regular.woff') format('woff'),
+    url('../fonts/fonts/proximanova_regular.ttf') format('truetype'),
+    url('../fonts/fonts/proximanova_regular.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
